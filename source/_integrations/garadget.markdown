@@ -65,6 +65,23 @@ covers:
 
 If provided, the **access_token** will be used, otherwise the **username** and **password** will be used to automatically generate an access token at start time.
 
+
+<div class='note warning'>
+  
+The simplest way to obtain your access_token is to login into the [Garadget Web Interface](https://www.garadget.com/my) and use the document inspector to pick at the background requests it sends:
+
+In Google Chrome click anywhere in blank space of the page and select “Inspect” from the context menu <br>
+Navigate to the Network Tab <br>
+Filter by text: setState and resource type XHR <br>
+Use web interface to open and close the door <br>
+See the requests appearing in the list, you can find the details under Headers tab
+
+<p class='img'>
+  <img src='https://community.garadget.com/uploads/default/optimized/1X/9f415b3f2ec5d9eb9b186df272c61098f2185f4f_2_455x499.gif' />
+</p>
+
+</div>
+
 ## Example
 
 <p class='img'>
